@@ -1,7 +1,9 @@
 ---
 title: Difference between float and flex
 date: 2020-09-15 22:02:23
-tags:
+tags: 
+  - front-end brief
+  - css
 ---
 
 ### **Float**
