@@ -41,7 +41,7 @@ head:
 navbar: 
 
   # 左侧名称显示
-  sitename: Demo
+  sitename: Home
   
   # 右侧站内导航链接
   menu: 
