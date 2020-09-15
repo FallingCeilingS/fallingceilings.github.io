@@ -10,10 +10,8 @@ tags:
 
 Float is a traditional solution which is separated elements from the document flow layout. It is based on the box model and relies on the `display` attribute, `position` attribute, and `float` attribute.
 
-- Advantages:
-  - It is very inconvenient for special layouts, such as vertical centering.
-
 - Disadvantages:
+  - It is difficult for developers to implement special layouts, such as vertical centering.
   - Low error prone and high coupling. If one of the floating elements has some layout issues, other related elements will also be affected.
   - Fixed layout is required.
   - Not compatible for lower versions of Internet Explorer.
