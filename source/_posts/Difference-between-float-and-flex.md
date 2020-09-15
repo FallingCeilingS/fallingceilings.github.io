@@ -6,7 +6,7 @@ tags:
 
 ### **Float**
 
-Float is a traditional solution which is separated from the document flow layout. It is based on the box model and relies on the `display` attribute, position `attribute`, and `float` attribute.
+Float is a traditional solution which is separated from the document flow layout. It is based on the box model and relies on the `display` attribute, `position` attribute, and `float` attribute.
 
 - Advantages:
   - It is very inconvenient for special layouts, such as vertical centering.
