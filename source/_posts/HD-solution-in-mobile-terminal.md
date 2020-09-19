@@ -1,12 +1,15 @@
 ---
 title: HD solution in mobile terminal
 date: 2020-09-19 17:34:03
+mathjax: true
 tags:
 - front-end brief
 - css
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" 
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 $$ DPR \textrm{(device pixel ratio)} = \textrm{Device Pixel} / \textrm{CSS Pixel} $$
 
 ### **1px solution**
