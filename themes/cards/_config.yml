@@ -452,8 +452,6 @@ vendors:
   # Version: 3
   mathjax: 
     enable: true
-    per_page: false
-    cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
   # busuanzi counter js
   # https://busuanzi.ibruce.info

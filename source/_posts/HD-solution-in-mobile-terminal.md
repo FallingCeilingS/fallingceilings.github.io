@@ -7,10 +7,9 @@ tags:
 - css
 ---
 
-<script type="text/javascript" 
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-$$ DPR \textrm{(device pixel ratio)} = \textrm{Device Pixel} / \textrm{CSS Pixel} $$
+{% katex %}
+DPR \textrm{(device pixel ratio)} = \textrm{Device Pixel} / \textrm{CSS Pixel}
+{% endkatex %}
 
 ### **1px solution**
 
