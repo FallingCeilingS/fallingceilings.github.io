@@ -19,4 +19,4 @@ The reason is that `click` event will be triggered after the touch end when the 
 
 ### **The principle of `FastClick`**
 
-`document.body` binds `touchstart` and `touchend` events. `touchstart` is to record `targetElement`, that is, the element currently clicked. Then, `touchend` event blocks default event (the `click` events in elements behind). Afterwards, it composes a new `click` event and adds `tracedTouchEvent` property, which is able to be traced. Finally, the new `click` event on `targetElement` is triggerred. As a result, the binding function on `targetElement` is executed immediately and `FastClick` procedure is completed.
+`document.body` binds `touchstart` and `touchend` events. `touchstart` is to record `targetElement`, that is, the element currently clicked. Then, `touchend` event blocks default event (the `click` events in elements behind). Afterwards, it composes a new `click` event and adds `tracedTouchEvent` property, which is able to be traced. Finally, the new `click` event on `targetElement` is triggered. As a result, the binding function on `targetElement` is executed immediately and `FastClick` procedure is completed.
