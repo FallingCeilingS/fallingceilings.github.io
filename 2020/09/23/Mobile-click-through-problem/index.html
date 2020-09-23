@@ -21,7 +21,7 @@
     <!-- meta -->
 
 
-<title>Mobile click through problem | Hexo</title>
+<title>Mobile click through problem | Junxiang Chen</title>
 
 
     <meta name="keywords" content="front-end brief, mobile">
@@ -35,11 +35,11 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mobile click through problem">
 <meta property="og:url" content="https://fallingceilings.github.io/2020/09/23/Mobile-click-through-problem/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Junxiang Chen">
 <meta property="og:description" content="ScenarioAn upper element A is bound with tap event and element B is behind A. B is bound with click event. When we click A, A will be hidden, and the click event of the B element will be triggered.The">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-09-23T21:15:45.000Z">
-<meta property="article:modified_time" content="2020-09-23T20:56:32.073Z">
+<meta property="article:modified_time" content="2020-09-23T20:57:58.032Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="front-end brief">
 <meta property="article:tag" content="mobile">
@@ -207,7 +207,7 @@
 <li>Use <code>e.preventdefault()</code> to avoid triggering <code>click</code> or <code>tap</code> event to the lower layer element in the <code>touchend</code> event in the upper layer element.</li>
 <li>Use <code>FastClick</code>. <code>Fastclick</code> is a library dedicated to solve the <code>300ms</code> <code>click</code> event delay problem.</li>
 </ul>
-<h3 id="The-principle-of-FastClick"><a href="#The-principle-of-FastClick" class="headerlink" title="The principle of FastClick"></a><strong>The principle of <code>FastClick</code></strong></h3><p><code>document.body</code> binds <code>touchstart</code> and <code>touchend</code> events. <code>touchstart</code> is to record <code>targetElement</code>, that is, the element currently clicked. Then, <code>touchend</code> event blocks default event (the <code>click</code> events in elements behind). Afterwards, it composes a new <code>click</code> event and adds <code>tracedTouchEvent</code> property, which is able to be traced. Finally, the new <code>click</code> event on <code>targetElement</code> is triggerred. As a result, the binding function on <code>targetElement</code> is executed immediately and <code>FastClick</code> procedure is completed.</p>
+<h3 id="The-principle-of-FastClick"><a href="#The-principle-of-FastClick" class="headerlink" title="The principle of FastClick"></a><strong>The principle of <code>FastClick</code></strong></h3><p><code>document.body</code> binds <code>touchstart</code> and <code>touchend</code> events. <code>touchstart</code> is to record <code>targetElement</code>, that is, the element currently clicked. Then, <code>touchend</code> event blocks default event (the <code>click</code> events in elements behind). Afterwards, it composes a new <code>click</code> event and adds <code>tracedTouchEvent</code> property, which is able to be traced. Finally, the new <code>click</code> event on <code>targetElement</code> is triggered. As a result, the binding function on <code>targetElement</code> is executed immediately and <code>FastClick</code> procedure is completed.</p>
 
         </div>
          
@@ -242,7 +242,7 @@
     
         
         <p class="footer-copyright">
-            Copyright&nbsp;©&nbsp;2020&nbsp;<a href="/">Hexo</a>
+            Copyright&nbsp;©&nbsp;2020&nbsp;<a href="/">Junxiang Chen</a>
         </p>
     
     
