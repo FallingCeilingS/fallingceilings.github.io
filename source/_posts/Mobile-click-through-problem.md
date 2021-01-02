@@ -1,5 +1,5 @@
 ---
-title: Mobile click through problem
+title: Mobile device click through problem
 date: 2020-09-23 21:15:45
 tags:
   - front-end brief
